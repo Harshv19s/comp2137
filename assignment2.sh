@@ -11,7 +11,7 @@ network:
   version: 2
   renderer: networkd
   ethernets:
-    eth1:
+    eth0:
       dhcp4: no
       addresses: [192.168.16.21/24]
       routes:
